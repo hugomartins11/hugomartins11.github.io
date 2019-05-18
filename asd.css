@@ -1,0 +1,89 @@
+/*basic reset*/
+* {margin: 0; padding: 0;}
+/*adding a black bg to the body to make things clearer*/
+canvas {display: block;}
+
+h1{
+    color: #EDF5E1;
+    text-align:center;
+    font-family: 'Source Code Pro';
+    text-transform: uppercase;
+    font-weight: 200;
+    background-color: #41B3A3;
+    letter-spacing: 4px;
+}
+
+h2{
+    font-family: 'Source Code Pro';
+    font-weight: bold;
+    color: #EDF5E1;
+    background: #05386B;
+
+}
+
+table{
+    margin-left:auto;
+    margin-right: auto;
+    font-weight: 200;
+    font-family: 'Source Code Pro';
+    text-transform: uppercase;
+}
+
+body{
+    text-align:center;
+    background: #5CDB95;
+}
+
+#tr1{
+
+    margin-right:200px;
+    font-weight: bolder;
+    color: #05386B;
+}
+#tr2{
+    margin-right:100px;
+    color: #05386B;
+}
+
+#hugo{
+    height: 200px;
+}
+
+
+#pedro{
+    height: 200px;
+
+}
+
+#marc{
+    height:200px;
+}
+
+#links{
+    font-family: 'Source Code Pro';
+    font-weight: 200;
+    margin-left:1px;
+}
+
+#at{
+    font-family: 'Source Code Pro';
+    color: #EDF5E1;
+    margin-right: 200px;
+
+}
+
+#mc{
+    margin-right:200px;
+    font-family: 'Source Code Pro';
+    color: #EDF5E1;
+
+}
+
+#proto{
+    margin-right:200px;
+}
+
+#au{
+    margin-right:200px;
+}
+
