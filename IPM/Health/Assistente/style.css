@@ -1,0 +1,152 @@
+#grelha_icons {
+	color: white;
+	border-spacing: 15px 10px;
+}
+
+#icons {
+	width: 6.5cm;
+	height: 4.5cm;
+	background: linear-gradient(0deg, rgba(134, 133, 134, 0.63), rgba(134, 133, 134, 0.63)), url("img/ba.jpg");
+	background-size: 6.5cm 4.5cm;
+	border-radius: 2%;
+	position: absolute;
+	top: 5cm;
+	left: 5cm;
+}
+#time {
+	margin-left: 5px;
+	color: rgb(255, 255, 255);
+	font-size: 0.34cm;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#date {
+	margin-left: 5%;
+	color: rgb(255, 255, 255);
+	font-size: 0.34cm;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#divhead {
+	background-color: rgba(7, 11, 23, 0.503);
+	height: 0.5cm;
+	width: 6.5cm;
+	border-radius: 15% 15%;
+}
+
+#divid {
+	height: 2.6cm;
+	color: white;
+	width: 6.5cm;
+	overflow: auto;
+	border-radius: 15% 15%;
+}
+
+#bateria {
+	margin-left: 0%;
+	margin-top: 2.5px;
+}
+
+img:hover {
+	opacity: .8;
+	transition-duration: 0.5s;
+}
+
+figcaption {
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 0.25cm;
+	font-style: initial;
+	margin-top: 0.01cm;
+}
+
+#datetime {
+	margin: 5px;
+	color: rgb(255, 255, 255);
+	font-size: 0.34cm;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#home {
+	margin-left: 5%;
+}
+
+#outer {
+	height: 7.5cm;
+	width: 7.1cm;
+	z-index: -1;
+	position: absolute;
+	top: 3.5cm;
+	left: 4.8cm;
+}
+
+#grafico {
+	margin-left: 0%;
+	margin-top: -20px;
+}
+
+#tit {
+	color: rgb(76, 172, 245);
+	margin-left: 10%;
+	text-size-adjust: 50%;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#tit1 {
+	color: rgb(76, 172, 245);
+	margin-left: 27%;
+	text-size-adjust: 50%;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#titulos {
+	color: rgb(255, 255, 255);
+	font-size: 0.36cm;
+	font-family: Verdana, Geneva, sans-serif;
+}
+#nome {
+	color: rgb(255, 255, 255);
+	font-size: 0.3cm;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: left;
+}
+
+th,
+td {
+	padding: 1px;
+}
+#imagens {
+	color: rgb(255, 255, 255);
+	font-size: 0.36cm;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: middle;
+}
+
+img {
+	border-radius: 30%;
+}
+
+figcaption {
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 0.3cm;
+	font-style: initial;
+	margin-top: 0.01cm;
+	color: white;
+}
+
+#low_icons {
+	margin-left: 0.1cm;
+	margin-top: -0.7cm;
+	margin-bottom: 0%;
+}
+
+#home_button {
+	margin-left: 77%;
+}
+
+#low_icons1 {
+	margin-left: 0.1cm;
+	margin-top: 1cm;
+	margin-bottom: -10%;
+}

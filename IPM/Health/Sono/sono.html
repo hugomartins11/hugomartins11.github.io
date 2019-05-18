@@ -1,0 +1,77 @@
+<!doctype html>
+
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>iGo - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="../../code.js"></script>
+
+</head>
+
+<body onload = "startTime(), startDay()">
+
+    <img src = "img/teste.png" id = "outer" style = "border-radius : 0">
+
+    <div id = "icons">
+
+        <div id = "divhead">        
+            <div id = "divhead" style = "border-radius : 0">        
+                <span id="time"></span>
+                <img src = "img/health.png" id = "home" width ="15" height="13">
+                <span id="date"></span>
+                <img src = "img/dm_on.png" id = "dm" width ="12" height="12">
+                <img src = "img/wifi_on.png" id = "wifi" width ="15" height="12">
+                <img src = "img/rede.png" id = "rede" width ="12" height="12">
+                <img src = "img/bateria.png" id = "bateria" width ="23" height="12">
+            </div>
+        </div>
+        <span id = "tit">Today - 24/04/2019</span>
+        <table id ="tab1" style="width:95%">
+            <tr>
+                    <th id="nomes">Sleep Duration:</th>
+                    <td id="nomes">5:20</td>
+                  </tr>
+                  <tr>
+                    <th id="nomes">Deep   Sleep:</th>
+                    <td id="nomes">2:13</td>
+                  </tr>
+                  <tr>
+                    <th id="nomes">Calories burned:</th>
+                    <td id="nomes">325 kcal</td>
+                  </tr>
+
+        </table>
+        <table id ="tab2"style="width:95%">
+            <tr>
+                <td align="center" >
+                    <a href="7dias.html">
+                        <img src="img/Calendar.png" id = "imagens" width="40" height="40" /></a>
+                        <figcaption>Last 7 days</figcaption>
+                </td>
+                <td align="center">
+                    <a href="stats.html">
+                        <img src="img/graph.png" id = "imagens" width="40" height="40" /></a>
+                        <figcaption>Stats</figcaption>
+                </td>
+                  
+            </tr>
+            
+
+        </table>
+        <div id = "low_icons">
+            <a href="../health.html">
+                <img src="img/left-arrow.png" id = "Back" width="20" height="20" >
+            </a>
+    
+            <a href="../../index.html">
+                <img src="../../img/home.png" id = "home_button" width="24" height="24" >
+            </a>
+        </div>
+    </div>
+    
+    </body>
+
+</html>

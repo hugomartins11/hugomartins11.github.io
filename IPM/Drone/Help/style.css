@@ -1,0 +1,98 @@
+#grelha_icons {
+	color: white;
+	border-spacing: 15px 10px;
+	margin-top: 10%;
+}
+
+#icons_div {
+	overflow: auto;
+	width: 6.5cm;
+	height: 4cm;
+}
+
+#icons {
+	width: 6.5cm;
+	height: 4.5cm;
+	background: linear-gradient(0deg, rgba(134, 133, 134, 0.63), rgba(134, 133, 134, 0.63)), url("img/drone_wpp.jpg");
+	background-size: 6.5cm 4.5cm;
+	border-radius: 15%;
+	position: absolute;
+	top: 5cm;
+	left: 5cm;
+}
+
+img {
+	border-radius: 30%;
+}
+
+
+figcaption {
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 0.3cm;
+	font-style: initial;
+	margin-top: 0.01cm;
+}
+
+#time {
+	margin-left: 5px;
+	color: rgb(255, 255, 255);
+	font-size: 0.34cm;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#date {
+	margin-left: 2%;
+	margin-right: 3%;
+	color: rgb(255, 255, 255);
+	font-size: 0.34cm;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+
+#divhead {
+	background-color: rgba(7, 11, 23, 0.503);
+	height: 0.5cm;
+	width: 6.5cm;
+	border-radius: 15% 15%;
+}
+
+#bateria {
+	margin-left: 0%;
+	margin-top: 2.5px;
+}
+
+#home {
+	margin-left: 5%;
+}
+
+#outer {
+	height: 7.5cm;
+	width: 7.1cm;
+	z-index: 0;
+	position: absolute;
+	top: 3.5cm;
+	left: 4.8cm;
+}
+
+#low_icons {
+	margin-left: 0.1cm;
+	margin-top: -15%;
+}
+
+#home_button {
+	margin-left: 52%;
+}
+
+#Back {
+	margin-right: 25%;
+}
+
+#Back1 {
+	transform: rotate(180deg);
+}
+
+#share {
+	margin-left: 87%;
+	margin-top: -5cm;
+}

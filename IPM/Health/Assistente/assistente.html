@@ -1,0 +1,80 @@
+<!doctype html>
+
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>iGo - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="../../code.js"></script>
+
+</head>
+
+<body onload = "startTime(), startDay()">
+
+    <img src = "img/teste.png" id = "outer" style = "border-radius : 0">
+
+    <div id = "icons">
+            <div id = "divhead">        
+                <div id = "divhead" style = "border-radius : 0">        
+                    <span id="time"></span>
+                    <img src = "img/sono.png" id = "home" width ="15" height="13">
+                    <span id="date"></span>
+                    <img src = "img/dm_on.png" id = "dm" width ="12" height="12">
+                    <img src = "img/wifi_on.png" id = "wifi" width ="15" height="12">
+                    <img src = "img/rede.png" id = "rede" width ="12" height="12">
+                    <img src = "img/bateria.png" id = "bateria" width ="23" height="12">
+                </div>
+            </div>
+            <div id = "divid">
+                <table id ="tab1" style = "font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 0.3cm">
+                    <tr>
+                        <th id="nome">Sleep</th>
+                        <td id="apreciation">You haven't been getting enough sleep. Try to get more sleep when you can, and turn the lights off sooner.</td>
+                    </tr>
+                    <tr>
+                        <th id="nome">Diet</th>
+                        <td id="apreciation">You haven't eaten well. You have been getting a deficit of proteins.</td>
+                    </tr>
+                    <tr>
+                        <th id="nome">Workout</th>
+                        <td id="apreciation">Don't push yourself too hard. You have been puting too effort to your workout, but you haven't compensated with rest and a good alimentation</td>
+                    </tr>
+                </table>
+            </div>
+
+                <table id ="tab2"style="width:90%" align="center" >
+                    <tr >
+                        <td align="center" >
+                            <a href="../Sono/sono.html">
+                                <img src="../img/sono.png" id = "imagens" width="30" height="30" /></a>
+                                <figcaption>Sleep</figcaption>
+                        </td>
+                        <td align="center">
+                            <a href="../Dieta/dieta.html">
+                                <img src="../img/dieta.png" id = "imagens" width="30" height="30" /></a>
+                                <figcaption>Diet</figcaption>
+                        </td>
+
+                        <td align="center">
+                            <a href="../Plano/plano.html">
+                                <img src="../img/Plano.png" id = "imagens" width="30" height="30" /></a>
+                                <figcaption>Workout</figcaption>
+                        </td>
+                    </tr>  
+                </table>
+            <div id = "low_icons">
+                <a href="../health.html">
+                    <img src="img/left-arrow.png" id = "Back" width="20" height="20" >
+                </a>
+        
+                <a href="../../index.html">
+                    <img src="img/home.png" id = "home_button" width="20" height="20" >
+                </a>
+            </div>
+    </div>
+    
+    </body>
+
+</html>

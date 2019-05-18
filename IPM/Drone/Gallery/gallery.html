@@ -1,0 +1,60 @@
+<!doctype html>
+
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>iGo - Camera</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="../../code.js"></script>
+
+</head>
+
+<body onload = "startTime(), startDay()">
+
+    <img src = "../img/outer.png" id = "outer" style = "border-radius : 0">
+
+    <div id = "icons" style = "border-radius : 0">
+
+        <div id = "divhead" style = "border-radius : 0">        
+            <span id="time"></span>
+            <img src = "../img/gallery.png" id = "home" width ="15" height="13">
+            <span id="date"></span>
+            <img src = "../../img/dm_on.png" id = "dm" width ="12" height="12">
+            <img src = "../../img/wifi_on.png" id = "wifi" width ="15" height="12">
+            <img src = "../../img/rede.png" id = "rede" width ="12" height="12" style = "border-radius : 0">
+            <img src = "../../img/bateria.png" id = "bateria" width ="23" height="12">
+        </div>  
+
+        
+        <div id = "center">
+            <img src = "../img/delete.png" id = "delete" onclick = "alerta()" width = "20" height="20">
+            <a href= "../share/share.html"><img src = "../img/share.png" id = "share" width = "20" height="20"></a>
+            <img id = "gif_drone" src = "../img/static_drone.jpg" width = "245" height="150" style = "border-radius: 0">
+        </div>
+
+
+        <div id = "low_icons">
+            <a href="../drone.html">
+                <img src="../../img/left-arrow.png" id = "Back" width="20" height="20" >
+            </a>
+
+            <a href="gallery5.html">
+                <img src="../../img/left-arrow.png" id = "left" width="20" height="20" >
+            </a>
+
+            <img src="../img/123.png"  id = "gallery_icon" width="24" height="18" >
+
+            <a href="gallery2.html">
+                <img src="../../img/left-arrow.png" id = "right" width="20" height="20" >
+            </a>
+    
+            <a href="../../index.html">
+                <img src="../img/home.png" id = "home_button" width="22" height="22" >
+            </a>
+        </div>
+
+    </div>
+
+    </body>

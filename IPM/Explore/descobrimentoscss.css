@@ -1,0 +1,175 @@
+#grelha_icons {
+	color: white;
+	border-spacing: 15px 10px;
+}
+
+#icons_div {
+	overflow: auto;
+	width: 6.5cm;
+	height: 3.3cm;
+}
+#botao{
+	margin-left:0.01cm;
+}
+#T1 {
+	color: white;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.26cm;
+	font-style: initial;
+	margin-top: -3.6cm;
+	margin-left:3.21cm
+
+	
+} 
+#icons {
+	width: 6.5cm;
+	height: 4.5cm;
+	background:  url("img/caminhodesobimentos.png");
+	background-size: 6.5cm 4.5cm;
+	border-radius: 2%;
+	position: absolute;
+	top: 5cm;
+	left: 5cm;
+}
+#time {
+	margin-left: 5px;
+	color: rgb(255, 255, 255);
+	font-size: 0.34cm;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#date {
+	margin-left: 5%;
+	color: rgb(255, 255, 255);
+	font-size: 0.34cm;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#divhead {
+	background-color: rgba(7, 11, 23, 0.503);
+	height: 0.5cm;
+	width: 6.5cm;
+	border-radius: 15% 15%;
+}
+
+#bateria {
+	margin-left: 0%;
+	margin-top: 2.5px;
+}
+
+img:hover {
+	opacity: .8;
+	transition-duration: 0.5s;
+}
+
+figcaption {
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 0.3cm;
+	font-style: initial;
+	margin-top: 0.01cm;
+	margin-left:-2.7cm
+}
+
+#datetime {
+	margin: 5px;
+	color: rgb(255, 255, 255);
+	font-size: 0.34cm;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#home {
+	margin-left: 3%;
+}
+
+#outer {
+	height: 7.5cm;
+	width: 7.1cm;
+	z-index: -1;
+	position: absolute;
+	top: 3.5cm;
+	left: 4.8cm;
+}
+
+#grafico {
+	margin-left: 0%;
+	margin-top: -20px;
+}
+
+#tit {
+	color: white;
+	margin-left: 10%;
+	text-size-adjust: 50%;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#tit1 {
+	color: white;
+	margin-left: 27%;
+	text-size-adjust: 50%;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#titulos {
+	color: rgb(255, 255, 255);
+	font-size: 0.36cm;
+	font-family: Verdana, Geneva, sans-serif;
+}
+#nomes {
+	color: rgb(255, 255, 255);
+	font-size: 0.36cm;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: left;
+}
+
+th,
+td {
+	padding: 1px;
+}
+#imagens {
+	color: rgb(255, 255, 255);
+	font-size: 0.36cm;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: middle;
+}
+
+img {
+	border-radius: 30%;
+}
+
+figcaption {
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 0.3cm;
+	font-style: initial;
+	margin-top: 0.01cm;
+	color: white;
+}
+
+#low_icons {
+	margin-left: 0.1cm;
+	margin-top: 0.5cm;
+	margin-bottom: 0%;
+}
+
+#home_button {
+	margin-left: 77%;
+}
+
+#low_icons1 {
+	margin-left: 0.1cm;
+	margin-top: 3.1cm;
+	
+}
+
+#grafico {
+	margin-left: 0.1cm;
+	size: 1cm;
+}
+
+#T2{
+	border-spacing: 20px 0px;
+	border-collapse: separate;
+	margin-left: 0.1cm;
+	margin-top: -1cm;
+}

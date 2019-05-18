@@ -1,0 +1,176 @@
+
+#C1{
+	background-color: rgba(126, 125, 125, 0.753);
+	width: 2.25cm;
+	height: 3.8cm;
+	
+}
+
+#imgC1{
+	margin-left:2.5px;
+	border-radius: 0%;
+	margin-top:-1cm;
+	position: absolute
+}
+
+
+#imgccb{
+	margin-left:2.5px;
+	border-radius: 0%;
+	margin-top:-1cm;
+	position: absolute
+}
+
+#nomeC1{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	text-decoration: underline;
+	text-shadow: 1px 1px #000000;
+	margin-top:0.5cm;
+}
+
+
+#C2{
+	background-color: rgba(126, 125, 125, 0.753);
+	width: 2.25cm;
+	height: 3.8cm;
+	
+}
+
+#imgC2{
+	margin-left:2.5px;
+	border-radius: 0%;
+	margin-top:-0.8cm;
+	position: absolute
+}
+
+#nomeC2{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	text-decoration: underline;
+	text-shadow: 1px 1px #000000;
+	margin-top:0.6cm;
+}
+
+table.no-spacing {
+	border-spacing:0; /* Removes the cell spacing via CSS */
+	border-collapse: collapse;  /* Optional - if you don't want to have double border where cells touch */
+  }
+#icons {
+	width: 6.5cm;
+	height: 4.5cm;
+	background: linear-gradient(0deg, rgba(134, 133, 134, 0), rgba(134, 133, 134, 0)), url("img/Green-City-Wallpaper.jpg");
+	background-size: 6.5cm 4.5cm;
+	border-radius: 15%;
+	position: absolute;
+	top: 5cm;
+	left: 5cm;
+}
+
+#grelha_icons {
+	color: white;
+	width: 7cm;
+	height: 4cm;
+	border-color: white;
+	overflow: auto;
+	position: relative;
+	z-index: 1;
+}
+
+
+img {
+	border-radius: 30%;
+}
+
+
+figcaption {
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 0.3cm;
+	font-style: initial;
+	margin-top: 0.01cm;
+}
+
+#time {
+	margin-left: 5px;
+	color: rgb(255, 255, 255);
+	font-size: 0.34cm;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#date {
+	margin-left: 2%;
+	color: rgb(255, 255, 255);
+	font-size: 0.34cm;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+
+#divhead {
+	background-color: rgba(7, 11, 23, 0.503);
+	height: 0.5cm;
+	width: 6.5cm;
+	border-radius: 15% 15%;
+}
+
+#bateria {
+	margin-left: 0%;
+	margin-top: 2.5px;
+}
+
+#home {
+	margin-left: 5%;
+}
+
+#outer {
+	height: 7.5cm;
+	width: 7.1cm;
+	z-index: -1;
+	position: absolute;
+	top: 3.5cm;
+	left: 4.8cm;
+}
+
+#home_button {
+	margin-left: 5.8cm;
+	margin-top: -11%;
+	position: absolute;
+	z-index: 4;
+}
+
+#Back{
+	position: absolute;
+	margin-left: 0;
+	margin-top: -11%;
+	z-index: 4;
+}
+
+#category{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 8px;
+	margin-top:-0.3cm;
+	position: absolute;
+}
+
+#rating{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:.3cm;
+	margin-top:0.05cm;
+	position: absolute;
+}
+
+#horario1{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:.25cm;
+	position: absolute;
+	margin-top:-0.1cm;
+	color: rgb(0, 255, 0);
+}
+
+#horario2{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:.25cm;
+	position: absolute;
+	margin-top:-0.1cm;
+	color: rgb(255, 53, 53);
+}

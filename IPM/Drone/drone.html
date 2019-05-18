@@ -1,0 +1,64 @@
+<!doctype html>
+
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>iGo - Drone</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="../code.js"></script>
+
+</head>
+
+<body onload = "startTime(), startDay()">
+
+    <a href="Help/help.html"><img src = "img/outer.png" id = "outer" style = "border-radius : 0"></a>
+
+    <div id = "icons" style = "border-radius : 0">
+
+        <div id = "divhead" style = "border-radius : 0">        
+            <span id="time"></span>
+            <img src = "../img/drone.png" id = "home" width ="15" height="13">
+            <span id="date"></span>
+            <img src = "../img/dm_on.png" id = "dm" width ="12" height="12">
+            <img src = "../img/wifi_on.png" id = "wifi" width ="15" height="12">
+            <img src = "../img/rede.png" id = "rede" width ="12" height="12" style = "border-radius : 0">
+            <img src = "../img/bateria.png" id = "bateria" width ="23" height="12">
+        </div>     
+
+        <table id="grelha_icons">
+            <tr>
+                <td id = "td1">
+                    <a href="Camera/camera.html">
+                        <img src="img/camera.png" id = "camera" width="40" height="40" /></a>
+                    <figcaption id ="capcamera">Camera</figcaption>
+                </td>
+                <td id = "td2">
+                    <a href="Gallery/gallery.html">
+                        <img src="img/gallery.png" id = "gallery" width="40" height="40" /></a>
+                    <figcaption id ="capgallery" >Gallery</figcaption>
+                </td>
+                <td id = "td3">
+                    <a href="Recover/recover.html">
+                        <img src="img/recover_alt.png" id = "recover" width="40" height="40" /></a>
+                    <figcaption id ="caprecover">Recover</figcaption>
+                    
+                </td>
+            </tr>
+        </table>
+
+        <div id = "low_icons">
+            <a href="../index.html">
+                <img src="../img/left-arrow.png" id = "Back" width="20" height="20" >
+            </a>
+            <a href="../index.html">
+                <img src="img/home.png" id = "home_button" width="24" height="24" >
+            </a>
+        </div>
+
+
+
+    </div>
+
+    </body>
