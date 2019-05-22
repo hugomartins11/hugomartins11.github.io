@@ -1,3 +1,21 @@
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 1px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+	border: 0.1px solid #555555;
+}
 #grelha_icons {
 	color: white;
 	border-spacing: 15px 10px;
@@ -5,7 +23,8 @@
 }
 
 #icons_div {
-	overflow: auto;
+	overflow: scroll;
+	overflow-x: hidden;
 	width: 6.5cm;
 	height: 4cm;
 }
@@ -62,7 +81,7 @@ figcaption {
 }
 
 #home {
-	margin-left: 5%;
+	margin-left: 2%;
 }
 
 #outer {

@@ -6,7 +6,7 @@
     <meta charset="utf-8">
 
     <title>iGo - Home</title>
-    <link rel="stylesheet" href="pasteiscss.css">
+    <link rel="stylesheet" href="mapacss.css">
     <script src="../code.js"></script>
 
 </head>
@@ -16,9 +16,11 @@
 
     <img src = "img/teste.png" id = "outer" style = "border-radius : 0">
 
-    <div id = "icons">
+    <img src="img/laser.png" id="laser" style="border-radius : 0; position: absolute; 
+    margin-left: 30%; margin-top: 15%; width: 3cm; opacity: 0.6">
 
-      <div id = "divhead">        
+    <div id = "icons">
+     
         <div id = "divhead" style = "border-radius : 0">        
             <span id="time"></span>
             <img src = "img/map.png" id = "home" width ="15" height="13">
@@ -28,18 +30,24 @@
             <img src = "img/rede.png" id = "rede" width ="12" height="12">
             <img src = "img/bateria.png" id = "bateria" width ="23" height="12">
         </div>
-    </div>
+
+        <div class="img-zoom-container">
+            <img id="myimage" src="img/caminhopastel.png" width="250" height="152" style = "border-radius: 2%; z-index: 0;">
+            <div id="myresult" class="img-zoom-result" style= "opacity: 0.8;"></div>
+        </div>
+
         <div id = "low_icons1">
           <a href="pasteis.html">
-              <img src="img/left-arrow.png" id = "Back" width="20" height="20" >
+              <img src="img/left-arrow.png" id = "Back" width="20" height="20">
           </a>
-  
-      </div>
-            
+        </div>
 
-        </table>
+        <script>
+            imageZoom("myimage", "myresult");
+        </script>
+            
     </div>
     
-    </body>
+</body>
 
 </html>

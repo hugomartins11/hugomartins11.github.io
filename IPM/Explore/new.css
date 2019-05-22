@@ -1,30 +1,54 @@
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 3px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+	border: 0.1px solid #555555;
+}
+
 #grelha_icons {
 	color: white;
 	border-spacing: 15px 10px;
 }
 
 #icons_div {
-	overflow: auto;
+	overflow: hidden;
+	overflow-x: hidden;
 	width: 6.5cm;
 	height: 3.3cm;
 }
 #botao{
 	margin-left:0.01cm;
+	font-size: 0.25cm;
 }
+
 #T1 {
-	color: white;
+	color: rgb(255, 255, 255);
+	background-color: rgba(126, 125, 125, 0.753);
 	font-family: Verdana, Geneva, sans-serif;
-	font-size: 0.26cm;
+	font-size: 0.23cm;
 	font-style: initial;
-	margin-top: -3.6cm;
-	margin-left:3.21cm
+	margin-top: -2.6cm;
+	margin-left:2.8cm;
+	text-align: left;
 
 	
 } 
 #icons {
 	width: 6.5cm;
 	height: 4.5cm;
-	background: linear-gradient(0deg, rgba(134, 133, 134, 0.63), rgba(134, 133, 134, 0.63)), url("img/ba.jpg");
+	background: linear-gradient(0deg, rgba(134, 133, 134, 0.63), rgba(134, 133, 134, 0.63)), url("img/Green-City-Wallpaper.jpg");
 	background-size: 6.5cm 4.5cm;
 	border-radius: 2%;
 	position: absolute;
@@ -93,6 +117,12 @@ figcaption {
 #grafico {
 	margin-left: 0%;
 	margin-top: -20px;
+	border-radius : 5%; 
+	margin-top: 0.2cm; 
+	margin-left: 0.1cm; 
+	text-align: center;
+	width: 100px;
+	height: 90px;
 }
 
 #tit {
@@ -130,6 +160,8 @@ td {
 	font-size: 0.36cm;
 	font-family: Verdana, Geneva, sans-serif;
 	text-align: middle;
+	width: 25px;
+	height: 25px;
 }
 
 img {
@@ -147,12 +179,12 @@ figcaption {
 
 #low_icons {
 	margin-left: 0.1cm;
-	margin-top: 0.5cm;
+	margin-top: 1.7cm;
 	margin-bottom: 0%;
 }
 
 #home_button {
-	margin-left: 5.5cm;
+	margin-left: 5.6cm;
 	margin-top: -5%;
 	position: absolute;
 	z-index: 4;
@@ -160,25 +192,16 @@ figcaption {
 
 #Back{
 	position: absolute;
-	margin-left: 0;
+	margin-left: -0.2cm;
 	margin-top: -3%;
 	z-index: 4;
 }
 
-#low_icons1 {
-	margin-left: 0.1cm;
-	margin-top: cm;
-	margin-bottom: -10%;
-}
-
-#grafico {
-	margin-left: 0.1cm;
-	size: 2cm;
-}
 
 #T2{
 	border-spacing: 20px 0px;
-	border-collapse: separate;
-	margin-left: 0.1cm;
-	margin-top: 0cm;
+	margin-top: -24%;
+	margin-left: 40%; 
+	position: absolute;
+	width: 60%;
 }
